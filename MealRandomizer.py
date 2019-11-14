@@ -15,6 +15,7 @@ def mealRandomizer(n=3):
     with open(fname, "r") as f:
         meals = f.read().splitlines()
         
+    seed()
     return sample(meals, n)
     
     
