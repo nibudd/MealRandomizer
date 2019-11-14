@@ -10,6 +10,7 @@ from random import seed, sample
 
 def mealRandomizer(n=3):
     """
+    Prints a list of n meals from MealList.txt.
     """
     fname = os.getcwd() + "\MealList.txt"
     with open(fname, "r") as f:
